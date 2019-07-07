@@ -69,11 +69,7 @@ This final step is to upload the model best_model_cones.pth to the JetBot and ru
 
 Start cautious and give JetBot enough space to move around. Try different cone configuration and see how well the robot performs in different environments, lighting, etc. While the notebook live_demo_cones.ipynb explains all steps in detail, the following chart shows the logic of robot moves given the probabilities predicted by the models.
 
-![](misc/Main update loop.jpg)
-
-Main update loop.jpg
-
-Robot actions - main update loop
+![](misc/main_update_loop.jpg)
 
 This notebook also explains how to store the history of robot moves with free/left/right/blocked probabilities predicted by the model and how to make two FPV (First Person View) videos (at 1 fps and 15 fps rates) with superimposed telemetry and JetBot actions data. Those are useful for debugging, PD controller tuning and model improvement.
 
