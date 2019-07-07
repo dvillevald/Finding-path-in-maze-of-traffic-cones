@@ -2,10 +2,10 @@
 This project explains how to apply transfer learning to teach NVIDIA JetBot navigate through a maze of toy traffic cones. 
 
 ### Motivation
-Every time I drive in contraction area I am thinking how challenging it would be for self driving car to navigate through the traffic cones. It turns out it is not so difficult with new NVIDIA's JetBot - with only a couple hundreds images you can train a state-of-the-art deep learning model to teach your robot how to find path in a maze of toy traffic cones using only onboard camera and no other sensors.
+Every time I drive in contraction area I am thinking how challenging it would be for self driving car to navigate through the traffic cones. It turns out it is not so difficult with new **NVIDIA's JetBot** - with only a couple hundreds images you can train a state-of-the-art deep learning model to teach your robot how to find path in a maze of toy traffic cones using only onboard camera and no other sensors.
 
 ### JetBot
-JetBot is an open-source robot based on NVIDIA Jetson Nano kit. You can find detailed instructions on how to build and set it up here.
+JetBot is an open-source robot based on NVIDIA Jetson Nano kit. You can find detailed instructions on how to build and set it up [here](https://github.com/NVIDIA-AI-IOT/jetbot/wiki)
 
 ### Project overview
 This project is a modified Collision avoidance example from NVIDIA JetBot Wiki. It consists of three major steps, each described in a separate Jupyter notebook:
@@ -16,7 +16,7 @@ This project is a modified Collision avoidance example from NVIDIA JetBot Wiki. 
 ### Step 0. Uploading Jupyter notebooks to JetBot
 
 **IMPORTANT:** The Jupyter notebooks data_collection_cones.ipynb and live_demo_cones.ipynb referenced in Steps 1 and 3 below should be run on JetBot while  train_model_cones.ipynb in Step 2 - on a computer with GPU. 
-Therefore we have to upload  data_collection_cones.ipynb and live_demo_cones.ipynb to the JetBot and place them in ~/Notebooks/traffic_cones_driving/
+Therefore we have to upload  data_collection_cones.ipynb and live_demo_cones.ipynb to the JetBot and place them in ``~/Notebooks/traffic_cones_driving/``
 
 - Connect to your robot by navigating to http://<jetbot_ip_address>:8888
 - Sign in with the default password jetbot
