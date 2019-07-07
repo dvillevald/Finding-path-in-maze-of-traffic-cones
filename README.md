@@ -1,5 +1,5 @@
 # Finding-path-in-maze-of-traffic-cones
-This project explains how to apply transfer learning to teach NVIDIA JetBot navigate through a maze of toy traffic cones. 
+This project explains how to apply transfer learning to teach NVIDIA JetBot to navigate a maze of toy traffic cones with camera sensor only.  
 
 ![](misc/jetbot_traffic_cones.gif)
 ![](misc/jetbot_traffic_cones17.gif)
