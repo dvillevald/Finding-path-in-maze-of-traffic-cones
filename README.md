@@ -5,7 +5,6 @@ This project explains how to apply transfer learning to teach NVIDIA JetBot to n
 ![](misc/jetbot_traffic_cones17.gif)
 ![](misc/jetbot_traffic_cones8.gif)
 
-
 ### Motivation
 Every time I drive in contraction area I am thinking how challenging it would be for self driving car to navigate through the traffic cones. It turns out it is not so difficult with new **NVIDIA's JetBot** - with only a couple hundreds images you can train a state-of-the-art deep learning model to teach your robot how to find path in a maze of toy traffic cones using only onboard camera and no other sensors.
 
@@ -69,6 +68,8 @@ This final step is to upload the model best_model_cones.pth to the JetBot and ru
 - Open and follow the ``live_demo_cones.ipynb notebook``
 
 Start cautious and give JetBot enough space to move around. Try different cone configuration and see how well the robot performs in different environments, lighting, etc. While the notebook live_demo_cones.ipynb explains all steps in detail, the following chart shows the logic of robot moves given the probabilities predicted by the models.
+
+![](misc/Main update loop.jpg)
 
 Main update loop.jpg
 
