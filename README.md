@@ -11,8 +11,8 @@ Every time I drive in contraction area I am thinking how challenging it would be
 ### Demo video
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=YwxSwXEjd4c
-" target="_blank"><img src="http://img.youtube.com/vi/YwxSwXEjd4c/0.jpg" 
-alt="Transfer learning with NVIDIA JetBot - fun with traffic cones" width="720" height="540" border="10" /></a>
+" target="_blank"><img src=misc/jetson2.jpg 
+alt="Transfer learning with NVIDIA JetBot - fun with traffic cones" width="480" height="360" border="10" /></a>
 
 ### JetBot
 JetBot is an open-source robot based on NVIDIA Jetson Nano kit. You can find detailed instructions on how to build and set it up [here](https://github.com/NVIDIA-AI-IOT/jetbot/wiki)
