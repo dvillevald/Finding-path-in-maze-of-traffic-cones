@@ -8,6 +8,8 @@ This project explains how to apply transfer learning to teach NVIDIA JetBot to n
 ### Motivation
 Every time I drive in contraction area I am thinking how challenging it would be for self driving car to navigate through the traffic cones. It turns out it is not so difficult with new **NVIDIA's JetBot** - with only a couple hundreds images you can train a state-of-the-art deep learning model to teach your robot how to find path in a maze of toy traffic cones using only onboard camera and no other sensors.
 
+### Demo video
+
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=YwxSwXEjd4c
 " target="_blank"><img src="http://img.youtube.com/vi/YwxSwXEjd4c/0.jpg" 
 alt="Transfer learning with NVIDIA JetBot - fun with traffic cones" width="720" height="540" border="10" /></a>
